@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+   
+    height: 100vh;
+   
+}
+
+/* for navbar */
+
+.text-info{
+    
+    font-size: 23px;
+    
+
+}
+.navbar{
+    position: relative;
+    
+    
+}
+
+.navbar-nav{
+    position: absolute;
+    right: 0px;
+}
+.fornav{
+    font-weight: bold;
+    border-radius: 10px;
+}
+.navbar-brand{
+    font-weight: bolder;
+    
+}
+
+
+.inner{
+    display: flex;
+    justify-content: center;
+
+}
+.outer{
+    margin-bottom: 100px;
+    width: 400px;
+    
+    
+}
+#form{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+.firstpage{
+    height: 100vh;
+   
+}
+#task{
+    
+    margin-left: 80px;
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+#description{
+    
+    margin-left: 25px;
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+#duration{
+    
+    margin-left: 45px;
+    border: 3px solid gray;
+    border-radius: 15px;
+}
+.fortask{
+    display: flex;
+    
+}
+.fordescription{
+    display: flex;
+}
+.forduration{
+    display: flex;
+}
+.forform{
+    position: relative;
+   
+}
+
+form label{
+    font-weight: bold;
+}
+.forbtn{
+    position:absolute;
+    right: 0px;
+    
+}
+#forfilter{
+    font-weight: bold;
+
+}
+
+
+/* for timer */
+#timer{
+width: 200px;
+height: 200px;
+background-color: grey;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+border:5px solid rgba(233, 233, 8, 0.952);
+
+}
+#timerouter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+}
+tbody tr button{
+    color:white;
+    background-color: burlywood;
+    
+}
+
+
+
+
+
+/* for secondpage */
+.secondpage{
+    height: 100vh;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .secondpage{
+        margin-top: 50%;
+    }
+
+}
+@media screen and (min-width:992px){
+    #forposition{
+        position: relative;
+    }
+    .fornavi{
+       
+        position: absolute;
+        top: 12px;
+    }
+    
+}
+    
+@media screen and (min-width:768px){
+    #forposition{
+        position: relative;
+    }
+    .fornavi{
+       
+        position: absolute;
+        top: 12px;
+    }
+    
+}
